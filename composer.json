@@ -1,0 +1,18 @@
+{
+    "name": "satomasaki/amazon-photo-formatter",
+    "description": "Format amazon photo file name to amazon photo format.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "taisa",
+            "email": "g5.taisa831@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "phake/phake": "^3.1.3"
+    }
+}
