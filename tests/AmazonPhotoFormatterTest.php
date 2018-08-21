@@ -19,6 +19,8 @@ class AmazonPhotoFormatterTest extends \PHPUnit\Framework\TestCase
         $dir = dirname(__FILE__);
         $amazonPhotoFormatter = Phake::partialMock(AmazonPhotoFormatter::class, $dir);
         Phake::verify($amazonPhotoFormatter, Phake::times(1))->setCurrentDir($dir);
+        $currentDir = $amazonPhotoFormatter->getCurrentDir();
+        $this->assertEquals($dir, $currentDir);
     }
 
     public function test_format()
