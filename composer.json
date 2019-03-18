@@ -9,7 +9,7 @@
             "email": "g5.taisa831@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {},
     "require-dev": {
