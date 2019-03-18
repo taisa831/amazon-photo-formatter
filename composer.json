@@ -9,10 +9,15 @@
             "email": "g5.taisa831@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "^6.1",
-        "phake/phake": "^3.1.3"
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmazonPhotoFormatter\\": "src/",
+            "AmazonPhotoFormatterTest\\": "tests/"
+        }
     }
 }
