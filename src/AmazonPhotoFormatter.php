@@ -1,5 +1,5 @@
 <?php
-namespace amazonphotoformatter;
+namespace AmazonPhotoFormatter;
 
 class AmazonPhotoFormatter
 {
@@ -24,6 +24,9 @@ class AmazonPhotoFormatter
         }
     }
 
+    /**
+     * @throws \Exception
+     */
     public function formatPictures()
     {
         foreach(glob($this->getCurrentDir() . '/{*.jpeg,*.jpg}', GLOB_BRACE) as $fileName) {
